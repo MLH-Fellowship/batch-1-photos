@@ -18,7 +18,6 @@ def crop(region):
     except FileExistsError:
         print(f"cropped/{region} directory already exists - overwriting existing photos")
     
-
     print("Cropping")
     
     for image in images:
