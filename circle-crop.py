@@ -37,6 +37,7 @@ def get_images(region):
 
 def crop_image(image):
     img = Image.open(image)
+    img = img.resize((50,50))
 
     mask = Image.new("L", img.size, 0)
     draw = ImageDraw.Draw(mask)
