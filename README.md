@@ -1,6 +1,6 @@
 # Batch 1 Graduation Photos
 
-## Instructions
+## Photo Upload Instructions
 
 Normal GitHub workflow for contributing to a project:
 
@@ -11,3 +11,17 @@ Normal GitHub workflow for contributing to a project:
 1. Then... *Relax*!
 
 Any questions raise an issue and one of us can help
+
+## Cropping Instructions
+
+Set up a Python 3 virtual environment
+```
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Run
+```
+python circle-crop.py
+```
